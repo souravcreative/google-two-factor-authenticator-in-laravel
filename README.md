@@ -31,7 +31,7 @@ php artisan migrate
 
 # Install frontend assets (if needed)
 npm install && npm run build
-
+---
 📱 How It Works
 📝 Registration
 The user fills out the registration form with their email and any other required fields.
