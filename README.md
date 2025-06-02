@@ -52,3 +52,17 @@ Install via Composer:
 ```bash
 composer require pragmarx/google2fa
 composer require bacon/bacon-qr-code
+
+⚙️ Installation
+git clone https://github.com/your-username/laravel-2fa-breeze.git
+cd laravel-2fa-breeze
+
+composer install
+cp .env.example .env
+php artisan key:generate
+
+# Set your DB credentials in `.env`
+php artisan migrate
+
+npm install && npm run build
+php artisan serve
