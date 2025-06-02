@@ -14,24 +14,6 @@ Users register with their email, scan a QR code to link their Google Authenticat
 - Secure 2FA validation using `pragmarx/google2fa`
 - Clean Blade views and components
 
----
-
-## 🚀 Installation
-
-```bash
-git clone https://github.com/your-username/laravel-2fa-breeze.git
-cd laravel-2fa-breeze
-
-composer install
-cp .env.example .env
-php artisan key:generate
-
-# Set up your database in `.env`, then run:
-php artisan migrate
-
-# Install frontend assets (if needed)
-npm install && npm run build
----
 📱 How It Works
 📝 Registration
 The user fills out the registration form with their email and any other required fields.
@@ -97,5 +79,24 @@ The google2fa_secret is stored securely in the database.
 OTP codes are time-based and expire every 30 seconds.
 
 QR code and secret key should never be shared publicly.
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/your-username/laravel-2fa-breeze.git
+cd laravel-2fa-breeze
+
+composer install
+cp .env.example .env
+php artisan key:generate
+
+# Set up your database in `.env`, then run:
+php artisan migrate
+
+# Install frontend assets (if needed)
+npm install && npm run build
+---
+
 
 
