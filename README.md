@@ -80,22 +80,6 @@ OTP codes are time-based and expire every 30 seconds.
 
 QR code and secret key should never be shared publicly.
 
-📁 Folder Structure Overview
-plaintext
-Copy
-Edit
-app/
-└── Http/
-    └── Controllers/
-        └── Auth/
-            └── AuthenticatedSessionController.php
-
-resources/
-└── views/
-    └── auth/
-        ├── login.blade.php
-        └── register.blade.php
-
 ---
 
 ## 🚀 Installation
